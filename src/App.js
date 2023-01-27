@@ -1,9 +1,10 @@
-import {TextAnimated} from "./components"
+import {SocialMedia, TextAnimated} from "./components"
 
 function App() {
   return (
     <div className="App">
-      <TextAnimated/>
+      {/* <TextAnimated/> */}
+      <SocialMedia/>
     </div>
   );
 }
