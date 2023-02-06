@@ -1,35 +1,36 @@
-import { TwitterIconAnimated } from './SocialMedia.styled'
+import { TwitterIconAnimated, YoutubeIconAnimated } from './SocialMedia.styled'
 
 const SocialMedia = () => {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200">
-      <g class="youtube-icon-group">
-        <circle
-          class="youtube-outline"
-          fill="transparent"
-          stroke="#F26768"
-          stroke-miterlimit="10"
-          cx="250"
-          cy="100.5"
-          r="35.2"
-        />
-        <circle
-          class="youtube-inner-circle"
-          fill="transparent"
-          stroke="#F26768"
-          stroke-miterlimit="10"
-          cx="250"
-          cy="100.5"
-          r="35.2"
-        />
+      <YoutubeIconAnimated>
+        <g class="youtube-icon-group">
+          <circle
+            class="youtube-outline"
+            fill="transparent"
+            stroke="#F26768"
+            stroke-miterlimit="10"
+            cx="250"
+            cy="100.5"
+            r="35.2"
+          />
+          <circle
+            class="youtube-inner-circle"
+            fill="transparent"
+            stroke="#F26768"
+            stroke-miterlimit="10"
+            cx="250"
+            cy="100.5"
+            r="35.2"
+          />
 
-        <path
-          class="youtube-icon"
-          fill="#F26768"
-          d="M264.7 94.6s-.3-2-1.2-3c-1-1.2-2.4-1.2-3-1.3-4.2-.3-10.5-.3-10.5-.3s-6.3 0-10.5.3c-.6 0-2 0-3 1.3-1 1-1.2 3-1.2 3s-.3 2.4-.3 4.8v2.2c0 2.4.3 4.8.3 4.8s.3 2 1.2 3c1 1.2 2.6 1.2 3.3 1.3 2.4.2 10.2.3 10.2.3s6.3 0 10.5-.3c.6 0 2 0 3-1.3 1-1 1.2-3 1.2-3s.3-2.4.3-4.8v-2.2c0-2.4-.3-4.8-.3-4.8zm-17.8 9.8V96l8 4.2-8 4.2z"
-        />
-      </g>
-
+          <path
+            class="youtube-icon"
+            fill="#F26768"
+            d="M264.7 94.6s-.3-2-1.2-3c-1-1.2-2.4-1.2-3-1.3-4.2-.3-10.5-.3-10.5-.3s-6.3 0-10.5.3c-.6 0-2 0-3 1.3-1 1-1.2 3-1.2 3s-.3 2.4-.3 4.8v2.2c0 2.4.3 4.8.3 4.8s.3 2 1.2 3c1 1.2 2.6 1.2 3.3 1.3 2.4.2 10.2.3 10.2.3s6.3 0 10.5-.3c.6 0 2 0 3-1.3 1-1 1.2-3 1.2-3s.3-2.4.3-4.8v-2.2c0-2.4-.3-4.8-.3-4.8zm-17.8 9.8V96l8 4.2-8 4.2z"
+          />
+        </g>
+      </YoutubeIconAnimated>
       <TwitterIconAnimated>
         <g class="twitter-icon-group">
           <circle
