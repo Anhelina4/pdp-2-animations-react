@@ -41,3 +41,23 @@ export const YoutubeIconAnimated = styled.g`
     transform-origin: 50% 50%;
   }
 `
+export const FacebookIconAnimated = styled.g`
+  .facebook-icon-group:hover {
+    .facebook-outline{
+      transform:scale(1.8);
+      opacity:0;
+    }
+    .facebook-detail{
+      opacity:1;
+      transform:scale(0.8) rotate(45deg);
+    }
+  }
+  .facebook-outline, .facebook-detail {
+    transition: 300ms all;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+  }
+  .facebook-detail{
+    opacity:0;
+  }
+`
