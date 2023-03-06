@@ -1,9 +1,7 @@
-import './TextAnimated.styles.module.css'
-
-import { TextAnimation } from './TextAnimated.styled'
+import { TextAnimation } from "./TextAnimated.styled";
 
 const TextAnimated = () => {
-  const offsets= {p1: 208, p2: 142, p3: 94, p4: 100, p5: 195}
+  const offsets = { p1: 208, p2: 142, p3: 94, p4: 100, p5: 195 };
   return (
     <TextAnimation offsets={offsets}>
       <svg
@@ -14,9 +12,8 @@ const TextAnimated = () => {
         height="100%"
         width="100%"
         preserveAspectRatio="xMidYMid meet"
-        style={{ boxShadow: 'inset 0 0 0 2px red ' }}
-      >
-        <g >
+        style={{ boxShadow: "inset 0 0 0 2px red " }}>
+        <g>
           <path
             className="st0 p1"
             d="M59.98,55.29c1.59-1.61,4.34-1.38,6.31-0.25c1.96,1.13,3.42,2.95,5.1,4.46c4.67,4.19,11.39,5.97,17.51,4.64
@@ -60,7 +57,7 @@ const TextAnimated = () => {
         </g>
       </svg>
     </TextAnimation>
-  )
-}
+  );
+};
 
-export default TextAnimated
+export default TextAnimated;

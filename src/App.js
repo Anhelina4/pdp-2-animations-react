@@ -1,4 +1,11 @@
-import {SenseteqLogo, SocialMedia, TextAnimated, TextureText} from "./components"
+import {
+  RevealingText,
+  SenseteqLogo,
+  SocialMedia,
+  TextAnimated,
+  Texture,
+  TextureText,
+} from "./components";
 
 function App() {
   return (
@@ -6,7 +13,8 @@ function App() {
       {/* <TextAnimated/> */}
       {/* <SocialMedia/> */}
       {/* <SenseteqLogo/> */}
-      <TextureText/>
+      {/* <TextureText/> */}
+      <RevealingText />
     </div>
   );
 }
